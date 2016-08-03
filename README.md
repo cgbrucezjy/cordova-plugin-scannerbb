@@ -11,9 +11,8 @@ cannerBB.destroy(successhandler,errorhandler) : stop scanner feature, basically 
 
 sample typescript code
 
-scannerBB.initialize((o) => {
+            scannerBB.initialize((o) => {
             console.log("success!");
-            
             output = o.output;
             document.getElementById("scenarioOutputScanData").textContent = output;
         }, (e) => {
